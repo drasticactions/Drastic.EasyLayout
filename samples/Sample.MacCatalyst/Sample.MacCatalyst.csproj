@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-maccatalyst</TargetFramework>
+    <RuntimeIdentifier>maccatalyst-x64</RuntimeIdentifier>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <SupportedOSPlatformVersion>14.2</SupportedOSPlatformVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="._Entitlements.plist" />
+    <None Remove="._Entitlements.plist" />
+    <None Remove="._Info.plist" />
+    <None Remove="._Info.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sample.Mac.Shared\Sample.Mac.Shared.csproj" />
+    <ProjectReference Include="..\..\src\Drastic.EasyLayout.Mac.Shared\Drastic.EasyLayout.Mac.Shared.csproj" />
+  </ItemGroup>
+</Project>

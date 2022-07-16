@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0-maccatalyst;net6.0-ios</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Drastic.Bind\Drastic.Bind.csproj" />
+    <ProjectReference Include="..\..\src\Drastic.EasyLayout.Mac.Shared\Drastic.EasyLayout.Mac.Shared.csproj" />
+  </ItemGroup>
+</Project>

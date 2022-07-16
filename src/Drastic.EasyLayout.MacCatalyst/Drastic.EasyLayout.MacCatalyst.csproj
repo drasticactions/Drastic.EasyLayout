@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0-maccatalyst</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<AdditionalFiles Include="..\stylecop.json" Link="stylecop.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Drastic.EasyLayout.Mac.Shared\Drastic.EasyLayout.Mac.Shared.csproj" />
+	</ItemGroup>
+</Project>
