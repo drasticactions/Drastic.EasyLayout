@@ -1,4 +1,4 @@
-﻿namespace Sample.Mac.Shared
+﻿namespace Sample.Mac
 {
     public class PeopleViewController : UITableViewController
     {

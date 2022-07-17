@@ -13,8 +13,8 @@ public class AppDelegate : UIApplicationDelegate {
 		Window = new UIWindow (UIScreen.MainScreen.Bounds);
 
 		// create a UIViewController with a single UILabel
-		var vc = new Sample.Mac.RememberExample();
-		Window.RootViewController = vc;
+		var vc = new Sample.Mac.PersonViewController(new Mac.Person() { FirstName = "Test", LastName = "Testing" });
+		Window.RootViewController = new UINavigationController(vc);
 
 		// make the window visible
 		Window.MakeKeyAndVisible ();

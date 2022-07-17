@@ -1,7 +1,7 @@
 ﻿using Drastic.Bind;
 using Drastic.EasyLayout;
 
-namespace Sample.Mac.Shared
+namespace Sample.Mac
 {
     public class PersonViewController : UIViewController
     {
@@ -41,13 +41,11 @@ namespace Sample.Mac.Shared
             {
                 BorderStyle = UITextBorderStyle.RoundedRect,
                 Placeholder = "First Name",
-                BackgroundColor = UIColor.White,
             };
             lastNameEdit = new UITextField
             {
                 BorderStyle = UITextBorderStyle.RoundedRect,
                 Placeholder = "Last Name",
-                BackgroundColor = UIColor.White,
             };
             fullNameLabel = new UILabel
             {
@@ -55,7 +53,6 @@ namespace Sample.Mac.Shared
             };
 
             View.AddSubviews(bindButton, firstNameEdit, lastNameEdit, fullNameLabel);
-            View.BackgroundColor = UIColor.FromWhiteAlpha(0.9f, 1);
 
             //
             // Layout the UI

@@ -1,6 +1,6 @@
 ﻿using Drastic.Bind;
 
-namespace Sample.Mac.Shared
+namespace Sample.Mac
 {
     public class PersonTableViewCell : UITableViewCell
     {
